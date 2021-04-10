@@ -13,4 +13,4 @@ yum install -y httpd.x86_64
 systemctl start httpd.service
 systemctl enable httpd.service
 
-echo "<h2>Hello, World from $(hostname -f)</h2><br><p>Build by Terraform!<p>" > /var/www/html/index.html
+echo "<h2>Hello, World from $(hostname -f)</h2><br><p>Build by Terraform! Version 3.0<p>" > /var/www/html/index.html
